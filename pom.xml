@@ -24,11 +24,6 @@
         <java.version>11</java.version>
     </properties>
 
-    <dependencies>
-
-
-    </dependencies>
-
     <build>
         <plugins>
             <plugin>
@@ -37,5 +32,9 @@
             </plugin>
         </plugins>
     </build>
-
+    <scm>
+        <developerConnection>
+            scm:git:https://github.com/shayandaneshvar/springboot-petclinic-guru.git
+        </developerConnection>
+    </scm>
 </project>
